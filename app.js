@@ -41,20 +41,13 @@ do{
          if (pscore > 20){
            alert(`you got over 20, you lose`);
            ctotal++;
-         }
- 
-         else if ((pscore < cscore) && (pscore <= 20) && (cscore <= 20) ){
+         } else if ((pscore < cscore) && (pscore <= 20) && (cscore <= 20) ){
            alert("hahaha you lose bum ez win")
- 
            ctotal++;
           } else if ((cscore < pscore) && (cscore <= 20) && (pscore <= 20) ){
            alert("u win")
- 
            ptotal++
            }
-  
- 
- 
        }
       
  
@@ -62,4 +55,4 @@ do{
  
        var q = prompt(`You have a score of ${ptotal}. The computer has a score of ${ctotal}. do you want to play again?`)
  
-}while (q != "no")
+}while (q != "no") 
